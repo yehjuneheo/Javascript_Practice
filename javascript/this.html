@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Javascript Async/Await</h1>
+    </head>
+    <body>
+        <script>
+            /*
+            var value = 50
+
+            function My_function(){
+                var value = 100
+                alert("Value: " + value)
+                alert("This value: " + this.value)
+            }
+            My_function()
+            */
+
+            const random = {
+                name: "Tutorial",
+                video: ["Javascript", "this", "keyword"],
+                info(){
+                    this.video.forEach(function(tag){
+                        console.log(this.name, tag)
+                    }, this)
+                }
+            }
+            random.info()
+        </script>
+    </body>
+</html>

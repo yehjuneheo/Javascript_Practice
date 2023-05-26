@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>Javascript Object</title></head>
+<body>
+    <h1>Creating Javascript Objects</h1>
+    <p id="demo"></p>
+        <script>
+            var student = {
+                name: "Chris",
+                age: 21,
+                studies: "Computer Science",
+            };
+            x = student.age = 25; //x = "age", student[x]
+            document.getElementById("demo").innerHTML = student.name + " of the age " + x + " studies " + student.studies;
+        </script>
+</body>
+</html>
